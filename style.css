@@ -5,14 +5,12 @@ body {
 	font-weight: 400;
 	
 	font-style: normal;
-	/* background: rgb(244, 242, 242); */
-	
+		
 }
 .total{
 
     background: black;	
-	/* background: rgb(244, 242, 242); */
-    /* border: 10px solid green; */    
+	/* border: 1px solid red;     */    
     position: absolute;
 	top: 50%;
 	left: 50%;
@@ -26,7 +24,7 @@ body {
 .post {
 	
     background: white;
-    /* border: 10px solid green;     */
+    /* border: 1px solid red;     */
     position: absolute;
 	top: 50%;
 	left: 50%;
