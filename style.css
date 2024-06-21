@@ -1,11 +1,18 @@
+
 body {
     background: rgb(12, 12, 12);
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	
+	font-style: normal;
+	/* background: rgb(244, 242, 242); */
+	
 }
 .total{
 
-    background: black;
-    /* border: 10px solid green; */
-    
+    background: black;	
+	/* background: rgb(244, 242, 242); */
+    /* border: 10px solid green; */    
     position: absolute;
 	top: 50%;
 	left: 50%;
@@ -15,14 +22,98 @@ body {
 	
 }
 
+
 .post {
+	
     background: white;
     /* border: 10px solid green;     */
     position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 400px;
-	height: 500px;
+	width: 420px;
+	height: 570px;
 	border-radius: 20px;
 }
+/* header */
+
+.post-header{
+	/* border: 1px solid red;     */
+	display: flex;
+	align-items: center;
+	width: 420px;
+	height: 60px;
+}
+
+.icon-html {
+	margin-left: 3%;
+	zoom: 1.6;
+}
+
+.post-header h4, p{	
+	margin: 0%;
+}
+.post-textheader {
+	display: flex;
+	flex-direction: column;
+	margin-left: 3%;
+}
+.icon-dots {
+	display: flex;	
+	margin-left: 65%;
+	zoom: 2;	
+}
+
+/* Image */
+.post-img {
+	/* border: 1px solid red;     */
+	
+	width: 420px;
+	height: 300px;
+	
+}
+.post-img img {
+	
+	width: 420px;
+	height: 300px;
+	
+}
+/* Icons post-send */
+.icons-send {
+	/* border: 1px solid red;     */
+	display: flex;
+	align-items: end ;
+	width: 420px;
+	height: 45px;
+	
+}
+
+.first-icons {
+	margin-left: 1%;
+	zoom: 1.8;
+}
+.second-icon {
+	margin-left: 65%;
+	zoom: 1.8;
+}
+
+
+/* post body */
+
+.post-body{
+	padding: 15px;
+	/* border: 1px solid red; */
+}
+.post-body p:first-child{
+	text-align: left;
+	font-size: 14px;
+	
+	
+}
+.post-body p:last-child{
+	margin-top: 15px;
+	text-align: justify;
+	font-size: 14px;
+	
+}
+
