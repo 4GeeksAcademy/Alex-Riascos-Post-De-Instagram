@@ -1,0 +1,7 @@
+body {
+    background: black;
+}
+.post {
+    background: white;
+    border: 10px solid green;
+}
